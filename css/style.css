@@ -150,10 +150,13 @@ form button {
 
 /* estilo geral */
 
-main,
-main#contact,
-main#music {
+main{
   margin-top: 135px;
+}
+main#contact,
+main#music,
+main#about {
+  margin-top: 160px;
 }
 
 /* posicionamento e responsividade */
@@ -223,6 +226,8 @@ main#music {
     padding: 0;
     margin: 30px 0;
   }
+
+  
 
 }
 
